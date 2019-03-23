@@ -30,7 +30,7 @@ int main() {
 			int candy = 0;
 			for (int index = 0; index < box_num; index++) {
 				if(candy_num[index] > avarange ) {
-					candy = candy_num[index] - avarange;
+					candy += candy_num[index] - avarange;
 				}
 			}
 			return candy;
